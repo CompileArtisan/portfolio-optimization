@@ -54,7 +54,7 @@ if __name__ == "__main__":
     tickers = get_nifty50_tickers()
     
     # Limit to a smaller subset for testing (e.g., 50 stocks)
-    tickers = tickers[:50]
+    # tickers = tickers[:50]
 
     # Download historical data
     print("Downloading historical data...")

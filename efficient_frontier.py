@@ -50,6 +50,6 @@ plt.show()
 
 # Save the efficient frontier weights for further analysis
 efficient_frontier_weights = pd.DataFrame(portfolio_weights, index=target_returns)
-efficient_frontier_weights.to_csv('playground//efficient_frontier_weights.csv')
+efficient_frontier_weights.to_csv('efficient_frontier_weights.csv')
 
 print("Efficient frontier generated and weights saved.")
